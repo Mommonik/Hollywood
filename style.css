@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Montserrat:wght@400;700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  background: url(./img/planks-dark-old-wood-texture-1847619\ 1.png);
+  background-repeat: repeat-y;
+  background-size: 1520px;
+  height: 4800px;
+  font-family: "Montserrat", sans-serif;
+}
+#welcome {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#welcome h1 {
+  font-family: "Holtwood One SC", serif;
+  text-transform: uppercase;
+  color: #cbcbcb;
+  font-size: 64px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+.welcome-stick {
+  position: absolute;
+  width: 1300px;
+  height: 22px;
+  left: 110px;
+  top: 184px;
+
+  background: #705655;
+  box-shadow: 25px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.tablet1 img:first-child {
+  position: absolute;
+  width: 384px;
+  height: 308px;
+  left: 230px;
+  top: 206px;
+  filter: drop-shadow(25px 4px 4px rgba(0, 0, 0, 0));
+}
+.tablet2 img:first-child {
+  position: absolute;
+  width: 384px;
+  height: 308px;
+  left: 910px;
+  top: 206px;
+  filter: drop-shadow(25px 4px 4px rgba(0, 0, 0, 0));
+}
+.welcome-h1 {
+  position: absolute;
+  left: 258px;
+  top: 320px;
+}
+.welcome-h2 {
+  position: absolute;
+  left: 938px;
+  top: 320px;
+}
+#actors h1 {
+  position: absolute;
+  width: 464px;
+  height: 76px;
+  left: 528px;
+  top: 618px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  letter-spacing: 0.02em;
+
+  color: #b1b1b1;
+}
+.actors-flex {
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+  position: relative;
+  top: 700px;
+  left: 20px;
+}
+.actors-flex img {
+  margin-left: 25px;
+}
+#actress h1 {
+  position: absolute;
+  top: 1300px;
+  left: 500px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  letter-spacing: 0.02em;
+  color: #b1b1b1;
+}
+.actress-flex {
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+  position: relative;
+  top: 950px;
+  left: 10px;
+}
+.actress-flex img {
+  margin-left: 20px;
+}
+#films h1 {
+  position: absolute;
+  top: 1950px;
+  left: 550px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  letter-spacing: 0.02em;
+  color: #b1b1b1;
+}
+.films-flex {
+  width: 90%;
+  position: relative;
+  top: 1150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+.films-flex p {
+  width: 45%;
+  font-size: 35px;
+  font-weight: 400;
+  color: #ffffff;
+}
+#about h1 {
+  position: absolute;
+  top: 2950px;
+  left: 560px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  letter-spacing: 0.02em;
+  color: #b1b1b1;
+}
+#about p {
+  position: absolute;
+  top: 3070px;
+  left: 150px;
+  width: 80%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 78px;
+  letter-spacing: 0.02em;
+  color: #b1b1b1;
+  text-align: center;
+}
+.video {
+  position: relative;
+  top: 2100px;
+  left: 200px;
+  width: 70%;
+  height: 600px;
+}
+.footer-links a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+}
+.footer-flex {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer {
+  background-color: #60432e;
+  position: relative;
+  top: 2300px;
+}
+.scroll-img {
+  width: 70px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 2;
+  display: none;
+}
+.none {
+  display: none;
+}
